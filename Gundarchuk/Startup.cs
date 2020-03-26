@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Gundarchuk.Data;
+using Gundarchuk.Services;
+using Microsoft.AspNetCore.Http;
 
 namespace Gundarchuk
 {
@@ -25,6 +27,10 @@ namespace Gundarchuk
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IMessageSender, EmailMessageSender>();
+            services.AddTransient<MessageService>();
+            
+            
             services.AddControllersWithViews();
 
             services.AddDbContext<GundarchukContext>(options =>
@@ -32,7 +38,7 @@ namespace Gundarchuk
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, MessageService messageService)
         {
             if (env.IsDevelopment())
             {
@@ -44,6 +50,14 @@ namespace Gundarchuk
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseMiddleware<MessageMiddleware>();
+            app.Run(async (context) =>
+            {
+                IMessageSender messageSender = app.ApplicationServices.GetService<IMessageSender>();
+                context.Response.ContentType = "text / html; charset = utf - 8";
+                await context.Response.WriteAsync(messageSender.Send());
+            });
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

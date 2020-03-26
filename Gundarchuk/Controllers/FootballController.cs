@@ -13,7 +13,6 @@ namespace Gundarchuk.Controllers
 {
     public class HomeController : Controller
     {
-       GundarchukContext dbo = new GundarchukContext(new DbContextOptions<GundarchukContext>());
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -22,7 +21,7 @@ namespace Gundarchuk.Controllers
         }
         public IActionResult Index()
         {
-            return View(dbo.Player);
+            return View();
         }
 
         public IActionResult Privacy()

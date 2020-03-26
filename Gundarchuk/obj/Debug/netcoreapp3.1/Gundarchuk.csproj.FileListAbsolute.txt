@@ -18,7 +18,6 @@ C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Gundar
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Gundarchuk.TagHelpers.output.cache
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Gundarchuk.RazorCoreGenerate.cache
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -157,8 +156,6 @@ C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\bin\Debug\netcoreapp3.1\runtim
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Gundarchuk.csproj.CoreCompileInputs.cache
-C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Gundarchuk.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Pages\Players\Create.cshtml.g.cs
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Pages\Players\Delete.cshtml.g.cs
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Pages\Players\Details.cshtml.g.cs
@@ -186,3 +183,8 @@ C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Pages\Match\Index.cshtml.g.cs
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Views\Home\Hello.cshtml.g.cs
 C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Pages\Football\Index.cshtml.g.cs
+C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\bin\Debug\netcoreapp3.1\System.Data.Entity.Repository.dll
+C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Gundarchuk.csproj.CoreCompileInputs.cache
+C:\Users\vladg\source\repos\Gundarchuk\Gundarchuk\obj\Debug\netcoreapp3.1\Gundarchuk.MvcApplicationPartsAssemblyInfo.cache
